@@ -1,6 +1,24 @@
 # User Management System
 
-Um sistema **fullstack** de gerenciamento de usuários construído com **React** no frontend, **Node.js**/Express no backend e **Prisma** como ORM conectado a um banco de dados **MongoDB**. O projeto implementa funcionalidades básicas como cadastro, listagem e exclusão de usuários em um banco de dados real.
+Aplicação fullstack para gerenciamento de usuários, desenvolvida com React no frontend e Node.js/Express no backend, utilizando Prisma ORM para integração com banco de dados MongoDB.
+
+O projeto implementa operações básicas de CRUD com persistência em banco real e comunicação via API REST.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+**Frontend**
+- React
+- Vite
+- Axios
+- CSS
+
+**Backend**
+- Node.js
+- Express
+- Prisma ORM
+- MongoDB Atlas
 
 ---
 
@@ -19,6 +37,7 @@ O repositório está dividido em duas pastas principais:
     ├── public/   # Arquivos estáticos
     └── package.json
 ```
+A comunicação entre as camadas é realizada via requisições HTTP (GET, POST, DELETE), mantendo separação clara de responsabilidades.
 
 ## 🚀 Pré-requisitos
 
